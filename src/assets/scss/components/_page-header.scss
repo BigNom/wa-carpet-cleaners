@@ -1,0 +1,32 @@
+/* Header */
+.page-header {
+    color: $white;
+    font-size: 48px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.page-sub-header {
+    color: $white;
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+
+/* We start writing out flexbox here. The above is just page setup */
+.wrapper-page-header {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.flex-header {
+  background-color: $primary-color;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  height: 300px;
+}

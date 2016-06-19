@@ -1,0 +1,76 @@
+
+
+  <div class="medium-4 columns">
+    <label>Name
+      <input type="text" placeholder="Name">
+    </label>
+    <label>Email
+      <input type="text" placeholder="Email">
+    </label>
+    <label>Size
+<select>
+  <option value="carpet-cleaning">Carpet Cleaning</option>
+  <option value="tile-cleaning">Tile Cleaning</option>
+  <option value="upholstery-cleaning">Upholstery Cleaning</option>
+  <option value="apollo">Other</option>
+</select>
+</label>
+    <label>
+      Message
+      <textarea placeholder="holla at a designerd"></textarea>
+    </label>
+    <input type="submit" class="button expanded" value="Submit">
+  </div>
+
+<!-- Booking Section -->
+  <section class="booking row">
+      <div class="large-8 large-centered columns text-center">
+          <h2>Book Now</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at nihil, dolorem, cupiditate quod in temporibus ad similique tenetur quo pariatur blanditiis, aut debitis iste quaerat dolor voluptates impedit expedita.</p>
+            <a data-open="modalBook" class="button">Contact Us!</a>
+        </div>
+  </section>
+
+              <div class="reveal" id="modalBook" data-reveal data-abide-error>
+                  <h2 class="text-center">Request a Quote</h2>
+            <form data-abide novalidate>
+
+                <div class="alert callout" style="display:none;" data-abide-error>
+                    <p><i class="fi-alert"></i>There is an error in your form!</p>
+                </div>
+
+                <div class="row columns">
+                    <label>Name:
+                        <input type="text" placeholder="Your Name" required>
+                        <span class="form-error">
+                            <i class="fi-alert"></i> Your name is required</span>
+                    </label>
+                    </div>
+                    <div class="row columns">
+                    <label>Email:
+                        <input type="text" placeholder="Your Email" required pattern="email">
+                        <span class="form-error">
+                            <i class="fi-alert"></i> Your email is required</span>
+                    </label>
+                    </div>
+                    <div class="row columns">
+                    <label>Phone Number:
+                        <input type="text" placeholder="Your Phone Number" required pattern="number">
+                        <span class="form-error">
+                            <i class="fi-alert"></i> Your phone number is required</span>
+                    </label>
+                    </div>
+                    <div class="row columns">
+                    <label>Message:
+                        <textarea placeholder="Your Message"></textarea>
+                    </label>
+                    </div>
+                    <div class="row columns">
+                        <input type="submit" class="button expanded" value="Submit">
+                    </div>
+                    <button class="close-button" data-close aria-label="Close reveal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+            </form>
+</div>

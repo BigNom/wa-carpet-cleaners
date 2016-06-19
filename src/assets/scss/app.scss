@@ -1,0 +1,25 @@
+@import "base/variables";
+
+// foundation
+//@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+@import 'motion-ui';
+//@import 'util/mixins';
+//@include hamburger($color, $color-hover, $width, $height, $weight, $bars);
+
+// Components
+@import 'components/nav-bar';
+//@import 'components/flex-box';
+@import 'components/header';
+@import 'components/page-header';
+@import 'components/footer';
+@import 'components/footer-copyright';
+
+
+@import 'components/about';
+
+
+// fonts
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,400);
