@@ -1,7 +1,7 @@
 @import "base/variables";
 
 // foundation
-//@import "base/foundation-settings";
+@import "base/foundation-settings";
 @import "foundation";
 @include foundation-everything;
 @import 'motion-ui';
@@ -9,15 +9,20 @@
 //@include hamburger($color, $color-hover, $width, $height, $weight, $bars);
 
 // Components
-@import 'components/nav-bar';
+// @import 'components/nav-bar';
 //@import 'components/flex-box';
 @import 'components/header';
 @import 'components/page-header';
 @import 'components/footer';
 @import 'components/footer-copyright';
 
-
+// Components
+@import 'components/index';
+@import 'pages/carpet-cleaning';
+@import 'pages/tile-cleaning';
+@import 'pages/upholstery-cleaning';
 @import 'components/about';
+
 
 
 // fonts

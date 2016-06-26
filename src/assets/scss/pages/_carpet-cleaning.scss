@@ -1,0 +1,79 @@
+.carpet-cleaning-header {
+    color: $primary-color;
+    font-size: 36px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+ul{
+  list-style: disc;
+}
+
+.carpet-cleaning-sub-header {
+  color: rgba(0,0,0,0.85);
+  font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.carpet-cleaning-title {
+  color: rgba(0,0,0,0.85);
+  font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.box-ccb {
+  p, li {
+    color: rgba(0,0,0,0.85);
+    font-family: 'Roboto', sans-serif;
+    font-size: rem-calc(14);
+    line-height: rem-calc(20);
+    text-align: left;
+  }
+
+  padding:10px;
+/*  border:1px solid black;
+  border-radius: 1px;*/
+}
+
+.flex-carpet-cleaning-header {
+  max-width: 1200px;
+}
+
+
+/* We start writing out flexbox here. The above is just page setup */
+.wrapper-carpet-cleaning {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:50px;
+}
+
+/* Flex Container */
+.flex-carpet-cleaning {
+  border:1px solid black;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.box-ccb1{
+  border:1px solid black;
+  max-width: 600px;
+  flex-basis: 500px;
+  flex-grow: 2;
+
+}
+
+.box-ccb2{
+  border:1px solid black;
+  margin-left: 100px;
+  max-width: 200px;
+flex-basis: 200px;
+  flex-grow: 1;
+}
